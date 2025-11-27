@@ -5,5 +5,11 @@
   "visibility": "public",
   "authors": {
     "display_name": "Temp"
-  }
+  },
+  "dependencies": [
+    {
+      "name": "@rcade/input-classic",
+      "version": "1.0.0"
+    }
+  ]
 }
