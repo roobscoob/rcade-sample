@@ -1,0 +1,9 @@
+{
+  "name": "rose-sample",
+  "display_name": "rose-sample",
+  "description": "rose-sample",
+  "visibility": "public",
+  "authors": {
+    "display_name": "Temp"
+  }
+}
