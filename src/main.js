@@ -34,11 +34,11 @@ function formatObject(obj, indent = 0) {
 
   for (const [key, value] of Object.entries(obj)) {
     if (typeof value === 'object' && value !== null) {
-      html += `${spaces}${key}:{`;
+      html += `${spaces}${key}: {`;
       html += formatObject(value, indent + 1);
       html += `}\n`;
     } else {
-      html += `${spaces}${key}:${formatBool(value)} `;
+      html += `${spaces}${key}: ${formatBool(value)} `;
     }
   }
 
