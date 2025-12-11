@@ -28,4 +28,4 @@ jobs:
       - name: Build Vite project
         run: bun run build
       - name: Deploy to RCade
-        uses: fcjr/rcade/action-deploy@main
+        uses: fcjr/rcade/action-deploy@feat/thumbnails
