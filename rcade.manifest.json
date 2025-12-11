@@ -3,6 +3,9 @@
   "display_name": "Classic Input Tester",
   "description": "rose-sample",
   "visibility": "public",
+  "thumbnail": {
+    "path": "thumby.png"
+  },
   "authors": {
     "display_name": "Rose Kodsi-Hall",
     "recurse_id": 6834
